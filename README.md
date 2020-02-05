@@ -1,11 +1,6 @@
 <html lang="pt-br">
   <head>
 
-   
-
-  
-
-
   </head>
 
   <body>
