@@ -1,1 +1,1 @@
-<h1 text-align:center;>Programação Orientada a Objetos</h1>
+<h1 <center>>Programação Orientada a Objetos</h1>
