@@ -39,5 +39,5 @@ Criando e executando o Java pelo CMD
 Para instalar, visitar o site oficial e seguir as intruções.
 2. Após ter baixado e configurado o JDK, já será capaz de criar e executar programas Java no Windows.
 - Para compilar programas ".java" e executá-los no terminal/cmd:
-    - Abrir pasta onde se localiza o arquivo main (principal) .java: /
+    - Abrir pasta onde se localiza o arquivo main (principal) .java:.
         `> cd "pasta do programa"`
