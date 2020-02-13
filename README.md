@@ -28,5 +28,16 @@ Para executar programas em Java é necessário ter o Java (JRE) instalado no com
 
 - Para verificar se o java e o javac estão instalados no PC, basta executar os comandos no CMD:
     - `> java --version` `> javac --version`
-    > - Se os comandos não forem reconhecidos, não está instalado!
-    > - Caso exiba a versão, está instalado!
+
+    > Se os comandos não forem reconhecidos, não está instalado!Caso exiba a versão, está instalado!
+
+### Executando .java pelo CMD
+
+Criando e executando o Java pelo CMD
+
+1. Para executar arquivos .java pelo terminal deve-se ter o Java JDK (Java Development Kit) devidamente instalado no PC.
+Para instalar, visitar o site oficial e seguir as intruções.
+2. Após ter baixado e configurado o JDK, já será capaz de criar e executar programas Java no Windows.
+- Para compilar programas ".java" e executá-los no terminal/cmd:
+    - Abrir pasta onde se localiza o arquivo main (principal) .java: /
+        `> cd "pasta do programa"`
