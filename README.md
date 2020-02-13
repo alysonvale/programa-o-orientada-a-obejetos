@@ -5,3 +5,5 @@ Repositório destinado para armazer conteúdos referentes a disciplina de Progra
 O curso utiliza com linguagem de programação Java.
 ## Material utilizado
 Estes são os materiais utilizados para desenvolver e rodar meus programas.
+### IDE's & Editor(es) de texto
+* [IntelliJ IDEA by JetBrains](https://www.jetbrains.com/idea/)
