@@ -67,6 +67,6 @@ Para instalar, visitar o site oficial e seguir as intruções.
     `> jar --verbose --create --file dist/"nome desejado para o jar".jar --main-class HelloWorld -C bin .`
 4. Para verificar os arquivos dentro do jar: <br>
     `> jar -tf dist/"nome desejado para o jar".jar`
-5. Para executar o jar: < br>
+5. Para executar o jar: <br>
     `> java -jar dist/"nome desejado para o jar".jar`
 
