@@ -54,3 +54,6 @@ Para instalar, visitar o site oficial e seguir as intruções.
     `> jar --create --file "nome desejado para o jar".jar --main-class "nome do class principal" "class principal".class "outras classes".class`
 3. Para executar o jar:<br>
     `> java -jar "nome do jar".jar`
+    
+#### Organizando em pastas:
+
