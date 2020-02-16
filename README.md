@@ -49,11 +49,24 @@ Para instalar, visitar o site oficial e seguir as intruções.
 ### Empacontando arquivos .class em um .jar
 
 1. Compilar o arquivo .class onde se encontra o main:<br>
-    `> javac "main".java`
+`> javac "main".java`
 2. Executar o comando:<br>
-    `> jar --create --file "nome desejado para o jar".jar --main-class "nome do class principal" "class principal".class "outras classes".class`
+`> jar --create --file "nome desejado para o jar".jar --main-class "nome do class principal" "class principal".class "outras classes".class`
 3. Para executar o jar:<br>
-    `> java -jar "nome do jar".jar`
-    
-#### Organizando em pastas:
+`> java -jar "nome do jar".jar`
+
+### Organizando em pastas:
+
+1. Suponham que existam 3 pastas:
+    - bin (Para armazenar os bytecodes .class)
+    - dist (Para armazenar o(s) .jar)
+    - src (Onde ficam os arquivos .java)
+2. Para compilar todos os arquivos .java da pasta src e enviar os bytecodes (.class) compilados para a pasta bin, executar o comando: <br>
+    `> javac -cp src -d ./bin src/*.java`
+3. Para empacotar todas classes da pasta bin e gerar um .jar na pasta dist: <br>
+    `> jar --verbose --create --file dist/"nome desejado para o jar".jar --main-class HelloWorld -C bin .`
+4. Para verificar os arquivos dentro do jar: <br>
+    `> jar -tf dist/"nome desejado para o jar".jar`
+5. Para executar o jar: < br>
+    `> java -jar dist/"nome desejado para o jar".jar`
 
