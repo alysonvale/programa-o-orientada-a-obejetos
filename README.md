@@ -42,7 +42,15 @@ Para instalar, visitar o site oficial e seguir as intruções.
     - Abrir pasta onde se localiza o arquivo main (principal) .java: <br>
     `> cd "pasta do programa"`
     - Compilar o programa: <br>
-        `> javac "nome do programa".java`
+    `> javac "nome do programa".java`
     - Para executar: <br>
-        `> java "nome do programa"`
-        
+    `> java "nome do programa"`
+
+### Empacontando arquivos .class em um .jar
+
+1. Compilar o arquivo .class onde se encontra o main:
+    `> javac "main".java`
+2. Executar o comando:
+    `> jar --create --file "nome desejado para o jar".jar --main-class "nome do class principal" "class principal".class "outras classes".class`
+3. Para executar o jar:
+    `> java -jar "nome do jar".jar`
