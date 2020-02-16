@@ -48,9 +48,9 @@ Para instalar, visitar o site oficial e seguir as intruções.
 
 ### Empacontando arquivos .class em um .jar
 
-1. Compilar o arquivo .class onde se encontra o main:
+1. Compilar o arquivo .class onde se encontra o main:<br>
     `> javac "main".java`
-2. Executar o comando:
+2. Executar o comando:<br>
     `> jar --create --file "nome desejado para o jar".jar --main-class "nome do class principal" "class principal".class "outras classes".class`
-3. Para executar o jar:
+3. Para executar o jar:<br>
     `> java -jar "nome do jar".jar`
